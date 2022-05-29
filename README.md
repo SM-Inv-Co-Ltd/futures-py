@@ -1,2 +1,2 @@
 # futures-py
-模型研究模块
+因子研究与回测的python框架
