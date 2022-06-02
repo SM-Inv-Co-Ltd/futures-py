@@ -5,8 +5,8 @@ from dateutil.relativedelta import relativedelta
 
 
 def get_futures():
-    today = datetime.today()
-    # today = date(2022, 3, 15)
+    # today = datetime.today()
+    today = date(2022, 6, 15)
     if datetime.now().hour > 16:
         today += timedelta(days=1)
 
