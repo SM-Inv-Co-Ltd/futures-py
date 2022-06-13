@@ -24,7 +24,7 @@ def futures_daily_time_list():
     file = open("/opt/sharedir/Meta/daily_time_list.txt", "r")
     for line in file:
         line = line.strip("\n")
-        daily_time_list.append(int(line))
+        daily_time_list.append(int(line) // 1000000)
     return daily_time_list
 
 
